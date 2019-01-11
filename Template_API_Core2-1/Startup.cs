@@ -6,6 +6,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection.Extensions;
 using Microsoft.IdentityModel.Tokens;
 using System;
+using System.Collections.Generic;
 using System.Text;
 using Template_API_Core2_1.Interfaces;
 using Template_API_Core2_1.Options;
@@ -49,6 +50,19 @@ namespace Template_API_Core2_1
                 clock = 5;
             }
 
+            // Set all Audiences (maybe one, can be more), audiences are defined as a comma seperated string eg. "audience1,audience2,audience3"
+            string audienceValues = jwtOptions["audiences"];
+            IEnumerable<string> audiences;
+
+            if (audienceValues.Contains(','))
+            {
+                audiences = jwtOptions["audiences"].Split(',');
+            }
+            else
+            {
+                audiences = new List<string>() { audienceValues };
+            }
+
             // With the options all in place set up the Authentication and validation rules
             services.AddAuthentication(options => { options.DefaultScheme = JwtBearerDefaults.AuthenticationScheme; })
                 .AddJwtBearer(options =>
@@ -62,7 +76,7 @@ namespace Template_API_Core2_1
                         ValidIssuer = jwtOptions["Issuer"],
 
                         ValidateAudience = true,
-                        ValidAudience = jwtOptions["Audience"],
+                        ValidAudiences = audiences,
 
                         RequireExpirationTime = true,
                         ValidateLifetime = true,
