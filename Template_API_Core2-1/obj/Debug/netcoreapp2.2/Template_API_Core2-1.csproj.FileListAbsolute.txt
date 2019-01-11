@@ -1,0 +1,15 @@
+C:\GitHub\Harkole\Template_API_Core2.1\Template_API_Core2-1\bin\Debug\netcoreapp2.2\Template_API_Core2-1.exe
+C:\GitHub\Harkole\Template_API_Core2.1\Template_API_Core2-1\bin\Debug\netcoreapp2.2\Template_API_Core2-1.deps.json
+C:\GitHub\Harkole\Template_API_Core2.1\Template_API_Core2-1\bin\Debug\netcoreapp2.2\Template_API_Core2-1.runtimeconfig.json
+C:\GitHub\Harkole\Template_API_Core2.1\Template_API_Core2-1\bin\Debug\netcoreapp2.2\Template_API_Core2-1.runtimeconfig.dev.json
+C:\GitHub\Harkole\Template_API_Core2.1\Template_API_Core2-1\bin\Debug\netcoreapp2.2\Template_API_Core2-1.dll
+C:\GitHub\Harkole\Template_API_Core2.1\Template_API_Core2-1\bin\Debug\netcoreapp2.2\Template_API_Core2-1.pdb
+C:\GitHub\Harkole\Template_API_Core2.1\Template_API_Core2-1\obj\Debug\netcoreapp2.2\Template_API_Core2-1.csprojAssemblyReference.cache
+C:\GitHub\Harkole\Template_API_Core2.1\Template_API_Core2-1\obj\Debug\netcoreapp2.2\Template_API_Core2-1.csproj.CoreCompileInputs.cache
+C:\GitHub\Harkole\Template_API_Core2.1\Template_API_Core2-1\obj\Debug\netcoreapp2.2\Template_API_Core2-1.RazorAssemblyInfo.cache
+C:\GitHub\Harkole\Template_API_Core2.1\Template_API_Core2-1\obj\Debug\netcoreapp2.2\Template_API_Core2-1.RazorAssemblyInfo.cs
+C:\GitHub\Harkole\Template_API_Core2.1\Template_API_Core2-1\obj\Debug\netcoreapp2.2\Template_API_Core2-1.AssemblyInfoInputs.cache
+C:\GitHub\Harkole\Template_API_Core2.1\Template_API_Core2-1\obj\Debug\netcoreapp2.2\Template_API_Core2-1.AssemblyInfo.cs
+C:\GitHub\Harkole\Template_API_Core2.1\Template_API_Core2-1\obj\Debug\netcoreapp2.2\Template_API_Core2-1.RazorTargetAssemblyInfo.cache
+C:\GitHub\Harkole\Template_API_Core2.1\Template_API_Core2-1\obj\Debug\netcoreapp2.2\Template_API_Core2-1.dll
+C:\GitHub\Harkole\Template_API_Core2.1\Template_API_Core2-1\obj\Debug\netcoreapp2.2\Template_API_Core2-1.pdb
