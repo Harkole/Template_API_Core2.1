@@ -3,3 +3,17 @@
 ################################################################################
 
 /Template_API_Core2-1/appsettings.Development.json
+/.vs/config/applicationhost.config
+/.vs/Template_API_Core2-1/DesignTimeBuild/.dtbcache
+/.vs/Template_API_Core2-1/v16
+/.vs/slnx.sqlite
+/.vs/VSWorkspaceState.json
+/Template_API_Core2-1/obj/Release/netcoreapp2.2/Template_API_Core2-1.AssemblyInfo.cs
+/Template_API_Core2-1/obj/Release/netcoreapp2.2/Template_API_Core2-1.AssemblyInfoInputs.cache
+/Template_API_Core2-1/obj/Release/netcoreapp2.2/Template_API_Core2-1.assets.cache
+/Template_API_Core2-1/obj/Release/netcoreapp2.2/Template_API_Core2-1.csproj.CoreCompileInputs.cache
+/Template_API_Core2-1/obj/Release/netcoreapp2.2/Template_API_Core2-1.RazorAssemblyInfo.cache
+/Template_API_Core2-1/obj/Release/netcoreapp2.2/Template_API_Core2-1.RazorAssemblyInfo.cs
+/Template_API_Core2-1/obj/Debug/netcoreapp2.2/
+/Template_API_Core2-1/bin/Debug/netcoreapp2.2/
+/Template_API_Core2-1/.vs
