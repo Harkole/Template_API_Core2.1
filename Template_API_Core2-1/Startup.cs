@@ -39,7 +39,6 @@ namespace Template_API_Core2_1
             services.Configure<JwtIssuerOptions>(options =>
             {
                 options.Issuer = jwtOptions["Issuer"];
-                options.Audience = jwtOptions["Audience"];
                 options.SigningCredentials = new SigningCredentials(signingKey, SecurityAlgorithms.HmacSha256);
             });
 
@@ -51,12 +50,12 @@ namespace Template_API_Core2_1
             }
 
             // Set all Audiences (maybe one, can be more), audiences are defined as a comma seperated string eg. "audience1,audience2,audience3"
-            string audienceValues = jwtOptions["audiences"];
+            string audienceValues = jwtOptions["Audience"];
             IEnumerable<string> audiences;
 
             if (audienceValues.Contains(','))
             {
-                audiences = jwtOptions["audiences"].Split(',');
+                audiences = audienceValues.Split(',');
             }
             else
             {
